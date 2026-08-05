@@ -48,6 +48,23 @@ span.dropsearch {
 .top-header ul {
     flex-wrap: wrap;
 }
+.housemain-img {
+    height: 283px;
+    width: auto;
+    object-fit: cover;
+    position: relative;
+    transition: 1.5s ease-in-out;
+    object-position: right;
+}
+.main-hose {
+    flex-direction: column;
+}
+
+
+.housemain-img img {
+    width: 100%;
+  
+}
 }
 @media (max-width:575px) {
 .banner_btn .arrow {
@@ -165,6 +182,24 @@ section.top-rated .action ul li p {
     width: 100%;
     margin: 6px 5px;
     font-size: 14px;
+}
+.housemain-img {
+    height: 283px;
+    width: auto;
+    object-fit: cover;
+    position: relative;
+    transition: 1.5s ease-in-out;
+    object-position: right;
+}
+.main-hose {
+    flex-direction: column;
+}
+.housemain-img img {
+    width: 100%;
+  
+}
+li.space-item {
+    margin-top: 5px;
 }
 }
 
