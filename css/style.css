@@ -88,7 +88,9 @@ padding: 7px;
 border-bottom: 1px solid #eee;
 transition: background .3s;
 }
-
+ul.dropdown-menu li:hover {
+    background: #ffffff;
+}
 ul.dropdown-menu li a {
 font-size: 16px;
 font-weight: 400;
@@ -308,7 +310,7 @@ position: relative;
 }
 
 
-.prop-desc span {
+/* .prop-desc span {
 transition: all .5s ease;
 position: absolute;
 right: 0;
@@ -318,8 +320,10 @@ border-radius: 0;
 color: #fff;
 padding: 2px 25px;
 clip-path: polygon(0px 0%, 104% 0px, 100% 100%, 0px 100%);
+} */
+span.propertybed img {
+    width: 27px !important;
 }
-
 .prop .prop-desc h3 {
 font-size: 20px;
 margin-top: 22px;
@@ -539,13 +543,13 @@ button.btn.btn-primary.mt-2 {
 .testimional-sec .bot{
        color: #e29007;
 }
-/* .testimional-sec h3{
+.testimional-des h3{
    
     font-size: 20px;
     font-weight: 700;
     margin: 0 0 8px;
 
-} */
+}
 
 .test-item {
     text-align: center;
@@ -817,4 +821,163 @@ margin: 0 0 12px;
 }
 .contact-buttons a img {
     width: 31px;
+}
+
+.main-product {
+    overflow-y: scroll;
+}
+.main-product {
+    height: 132vh;
+    overflow-y: scroll;
+    margin-bottom: 72px;
+}
+.search-container input, .search-container select {
+    padding: 12px 9px;
+    border-radius: 44px;
+    box-shadow: 1px 1px 29px #ddd;
+    border: 1px solid #c9c9c9;
+    width: 32%;
+    margin: 0 5px;
+    font-size: 14px;
+}
+.main-hose {
+    display: flex;
+    gap: 26px;
+    margin-top: 4px;
+    border-radius: 9px;
+    position: relative;
+    box-shadow: 0 0 19px #ddd;
+    transition: .1s ease-in-out;
+}
+
+.housemain-img {
+    height: 283px;
+    width: 329px;
+    object-fit: cover;
+    position: relative;
+    transition: 1.5s ease-in-out;
+    object-position: right;
+}
+.housemain-img img {
+    object-fit: cover;
+    object-position: right;
+    transition: 5s linear;
+    width: 329px;
+    height: 100%;
+}
+
+ span.preferd {
+    position: absolute;
+    z-index: 7;
+    padding: 2px 30px;
+    clip-path: polygon(0px 0%, 100% 0px, 90% 100%, 15px 100%);
+    box-shadow: 1px 11px 9px #000;
+    font-size: 10px;
+    color: #000;
+    left: -2px;
+    background: radial-gradient(78.57% 78.57% at 50% 50%, #fff, #ffc107);
+    width: auto;
+}
+
+span.preferd img {
+    width: 14px;
+}
+.housemain-img img {
+    width: 329px;
+    object-fit: cover;
+    object-position: right;
+    transition: 5s linear;
+    height: 100%;
+}
+span.ocupation {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, #ffc107, #0d49a3a3);
+    width: 100%;
+    text-align: center;
+    padding: 7px 0;
+    border-radius: 13px 13px 0 0;
+    filter: drop-shadow(2px 4px 6px #ddd);
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.house-main .prop-desc {
+    padding: 12px 0;
+    width: 100%;
+}
+.hosuesecont h2 {
+    font-size: 26px;
+    font-weight: 600;
+    color: #2e3b89;
+}
+h2.text-lg.font-bold {
+    font-weight: 600;
+    font-size: 18px;
+}
+span.gender {
+    background: #ddd;
+    padding: 7px 9px;
+    border-radius: 64px;
+    font-size: 12px;
+    position: absolute;
+    top: 14px;
+    right: -98px;
+}
+.house-main.prop-desc p {
+    font-size: 14px;
+}
+span.gender img {
+    width: 14px;
+    padding: 1px;
+}
+.prop-desc ul li {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    line-height: 1.2;
+    padding: 3px 0;
+}
+.prop-desc ul  {
+    display: flex;
+    padding: 0;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 25px auto 4px 0;
+}
+.contactbutton {
+    display: flex;
+    gap: 10px;
+}
+.contactbutton button {
+    padding: 5px 15px;
+    border-radius: 33px;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+.schedule-visit, .styles-green {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button.styles-green {
+    background: #ffa902;
+    border: 1px solid #ffa902;
+}
+.contactbutton button.schedule-visit {
+    color: #fff;
+    background: linear-gradient(45deg, #2e3b89, #1661b5);
+}
+span.beds {
+    font-size: 18px;
+    line-height: 2;
+}
+li.space-item {
+    margin-top: 50px;
 }

@@ -157,5 +157,14 @@ section.top-rated .action ul li p {
     font-size: 15px;
   
 }
+.search-container input, .search-container select {
+    padding: 12px 9px;
+    border-radius: 44px;
+    box-shadow: 1px 1px 29px #ddd;
+    border: 1px solid #c9c9c9;
+    width: 100%;
+    margin: 6px 5px;
+    font-size: 14px;
+}
 }
 
